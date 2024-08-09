@@ -1,5 +1,5 @@
-
 reset()
+calculate()
 function calculate(){
     const collection = document.getElementsByClassName("misson-buttons");
     var score = 0
