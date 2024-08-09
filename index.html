@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BOEING 727 CALCULATOR</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <article>
+        <div class="misson">
+            <h1>CORAL NURSERY</h1>
+            <h4>Secure new coral structures to grow in the nursery until
+                they are strong enough for transport to the reef.
+            </h4>
+            <img src="images/coral.png" class="misson-image">
+            <div class="misson-buttons">
+
+                <label>Is the coral tree is hanging on the coral tree support </label>
+                <select name="20">
+                    <option value="no"><a href="">NO</option>
+                    <option value="yes"><a href="">YES</option>
+                </select>
+                <h1></h1>
+
+                <label> Bonus: and the bottom of the coral tree is in its holder</label>
+                <select name="10">
+                    <option value="no"><a href="">NO</option>
+                    <option value="yes"><a href="">YES</option>
+                </select>
+                <h1></h1>
+
+                <label> If the coral buds are flipped up</label>
+                <select name="20">
+                    <option value="no"><a href="">NO</option>
+                    <option value="yes"><a href="">YES</option>
+                </select>
+            </div>
+        </div>
+        <div class="misson">
+            <h1>SHARK</h1>
+            <h4>The shark was just tagged for research - release it backinto its habitat.</h4>
+            <img src="images/shark.png" class="misson-image">
+            <div class="misson-buttons">
+
+                <label>Is the shark is no longer touching the cave</label>
+                <select name="20">
+                    <option value="no"><a href="">NO</option>
+                    <option value="yes"><a href="">YES</option>
+                </select>
+                <h1></h1>
+
+                <label>Is the shark is touching
+                    the mat and is at least
+                    partly in the shark
+                    habitat </label>
+                <select name="10">
+                    <option value="no"><a href="">NO</option>
+                    <option value="yes"><a href="">YES</option>
+                </select>
+            </div>
+        </div>
+        <div class="misson">
+            <h1>CORAL REEF</h1>
+            <h4>Carefully mount the new coral structure without
+                damaging other nearby reef segments.</h4>
+            <img src="images/coral.png" class="misson-image">
+            <div class="misson-buttons">
+
+                <label>Is the coral reef is flipped up, not touching the
+                    mat</label>
+                <select name="20">
+                    <option value="no"><a href="">NO</option>
+                    <option value="yes"><a href="">YES</option>
+                </select>
+                <h1></h1>
+
+                <label>Is a reef segment is standing upright, outside
+                    of home, and touching the mat</label>
+                <select name="5">
+                    <option value="0"><a href="">0 segment</option>
+                    <option value="1"><a href="">1 segment</option>
+                    <option value="2"><a href="">2 segments</option>
+                    <option value="3"><a href="">3 segments</option>
+                </select>
+            </div>
+        </div>
+        <div class="misson">
+            <h1>SCUBA DIVER</h1>
+            <h4>Help the scuba diver transport new coral from the
+                nursery to the reef.</h4>
+            <img src="images/scuba.png" class="misson-image">
+            <div class="misson-buttons">
+
+                <label>Is the scuba diver is no longer touching the coral
+                    nursery</label>
+                <select name="20">
+                    <option value="no"><a href="">NO</option>
+                    <option value="yes"><a href="">YES</option>
+                </select>
+                <h1></h1>
+
+                <label>Is the scuba diver is hanging on the coral reef
+                    support</label>
+                <select name="20">
+                    <option value="no"><a href="">NO</option>
+                    <option value="yes"><a href="">YES</option>
+
+                </select>
+            </div>
+        </div>
+    </article>
+    <div class="result-displays">
+        <button class="math-button" onclick="reset()">RESET</button>
+        <h1 id="score-display">SCORE: 0</h1>
+        <button class="math-button" onclick="calculate()">CALCULATE</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

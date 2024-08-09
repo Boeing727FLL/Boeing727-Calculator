@@ -1,0 +1,44 @@
+.misson{
+    background-color: rgb(0, 0, 0);
+    padding: 5px 25px 25px 25px;
+    width: 20vmax;
+    margin: 25px;
+    border-radius: 10px;
+    color: white;
+    text-wrap: wrap;
+    height: max-content;
+}
+.misson-image{
+    width: 75%;
+    height: 75%;
+}
+article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-auto-rows: auto; /* Automatically determine row height based on content */
+    grid-auto-flow: row; /* Fill items by row first */
+    gap: 10px; /* Optional: Space between items */
+  }
+.math-button{
+    height: 10vmin;
+    background-color: black;
+    color: white;
+    font-size: 5vmin;
+    border-radius: 10px;
+    width: 15vmax;
+}
+#score-display{
+    text-align: center;
+    font-size: 5vmin;
+    padding: 25px; 
+}
+body{
+    font-family: Arial;
+}
+.result-displays{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically if needed */
+    height: 0vh;
+
+}
