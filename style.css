@@ -40,9 +40,10 @@ body{
     justify-content: center; /* Center horizontally */
     align-items: center;     /* Center vertically if needed */
     height: 0vh;
-
+    padding-top: 100px;
 }
 .icon{
     width: 5%;
     height: 5%;
+    padding-top: 100px;
 }
