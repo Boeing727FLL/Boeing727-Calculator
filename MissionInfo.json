@@ -1,0 +1,623 @@
+{
+    "english": [
+        {
+            "yes": "YES",
+            "no": "NO",
+            "textDirection": "ltr",
+            "languge": "Languge",
+            "name": "English"
+        },
+        {
+            "name": "Equipment Inspection",
+            "description": "(Prematch) The robot and all equipment fit completely in one launch area and under the height limit",
+            "image": "images/inspection.png",
+            "pointGivers": [
+                {
+                    "name": "Is the robot and all equipment completely in one launch area and under the height limit?",
+                    "points": 20,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "CORAL NURSERY",
+            "description": "Secure new coral structures to grow in the nursery until they are strong enough for transport to the reef.",
+            "image": "images/coral.png",
+            "pointGivers": [
+                {
+                    "name": "Is the coral tree is hanging on the coral tree support",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "Bonus: and the bottom of the coral tree is in its holder",
+                    "points": 10,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "Are the coral buds are flipped up",
+                    "points": 20,   
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "SHARK",
+            "description": "The shark was just tagged for research - release it backinto its habitat.",
+            "image": "images/shark.png",
+            "pointGivers": [
+                {
+                    "name": "Is the shark is no longer touching the cave",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "Is the shark is touching the mat and is at least partly in the shark habitat",
+                    "points": 10,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "CORAL REEF",
+            "description": "Carefully mount the new coral structure without damaging other nearby reef segments.",
+            "image": "images/reef.png",
+            "pointGivers": [
+                {
+                    "name": "Is the coral reef is flipped up, not touching the mat",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "How many reef segments are standing upright, outside of home, and not touching the mat",
+                    "points": 5,
+                    "type": "MANY",
+                    "singleObjectName": "segment",
+                    "multibleObjectNames": "segments",
+                    "numberOfObjects": 3
+                }
+            ]
+        },
+        {
+            "name": "SCUBA DIVER",
+            "description": "Help the scuba diver transport new coral from the nursery to the reef.",
+            "image": "images/scuba.png",
+            "pointGivers": [
+                {
+                    "name": "Is the scuba diver is no longer touching the coral nursery",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "Is the scuba diver is hanging on the coral reef support",
+                    "points": 20,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "ANGLER FISH",
+            "description": "Guide the angler fish back to its unexpected home within the shipwreck",
+            "image": "images/angler.png",
+            "pointGivers": [
+                {
+                    "name": "Is the angler fish is latched within the shipwreck",
+                    "points": 30,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "RAISE THE MAST",
+            "description": "Raise the mast to restore the sunken shipwreck and explore what is inside.",
+            "image": "images/raise.png",
+            "pointGivers": [
+                {
+                    "name": "Is the shipwreck’s mast is completely raised",
+                    "points": 30,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "KRAKEN'S TREASURE",
+            "description": "Retrieve the chest from the shipwreck to reveal the history and treasure it holds.",
+            "image": "images/kraken.png",
+            "pointGivers": [
+                {
+                    "name": "Is the treasure chest is completely outside the kraken’s nest",
+                    "points": 20,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "ARTIFICIAL HABITAT",
+            "description": "Rearrange the artificial habitat stacks to create safe homes for the crabs and other sea creatures in this area.",
+            "image": "images/artificial.png",
+            "pointGivers": [
+                {
+                    "name": "how Many of the artificial habitat stack segments are completely flat and upright",
+                    "points": 10,
+                    "type": "MANY",
+                    "singleObjectName": "segment",
+                    "multibleObjectNames": "segments",
+                    "numberOfObjects": 4
+                }
+            ]
+        },
+        {
+            "name": "UNEXPECTED ENCOUNTER",
+            "description": "An unknown creature has attached itself to the AUV! Safely release it and deliver it to the cold seep.",
+            "image": "images/unexpected.png",
+            "pointGivers": [
+                {
+                    "name": "Is the unknown creature released",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "Is the unknown creature is at least partly in the cold seep",
+                    "points": 10,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "SEND OVER THE SUBMERSIBLE",
+            "description": "Some waters are too difficult to reach with larger ships. Send the submersible to explore the opposing field’s waters.",
+            "image": "images/send.png",
+            "pointGivers": [
+                {
+                    "name": "Is your team’s yellow flag is down",
+                    "points": 30,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "Is the submersible is clearly closer to the opposing field",
+                    "points": 10,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "SONAR DISCOVERY",
+            "description": "Use the ship’s sonar technology to scan the surroundings for nearby objects or animals.",
+            "image": "images/sonar.png",
+            "pointGivers": [
+                {
+                    "name": "Is one whale is revealed",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "Bonus: Are both whales are revealed",
+                    "points": 10,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "FEED THE WHALE",
+            "description": "Krill are a whale’s favorite food! Collect the krill and feed them to the hungry whale.",
+            "image": "images/feed.png",
+            "pointGivers": [
+                {
+                    "name": "amount of Krill at least partly in the whale’s mouth",
+                    "points": 10,
+                    "type": "MANY",
+                    "singleObjectName": "krill",
+                    "multibleObjectNames": "krills",
+                    "numberOfObjects": 5
+                }
+            ]
+        },
+        {
+            "name": "CHANGE SHIPPING LANES",
+            "description": "Adjust the cargo ship’s route to safely avoid whale migration routes by moving to another shipping lane.",
+            "image": "images/change.png",
+            "pointGivers": [
+                {
+                    "name": "Is the ship is in the new shipping lane, touching the mat",
+                    "points": 20,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "SAMPLE COLLECTION",
+            "description": "Collect samples and artifacts from around the mat so they can be analyzed by scientists in the lab.",
+            "image": "images/sample.png",
+            "pointGivers": [
+                {
+                    "name": "Is the water sample is completely outside the water sample area",
+                    "points": 5,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "Is the seabed sample is no longer touching the seabed",
+                    "points": 10,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "Is the plankton sample is no longer touching the kelp forest",
+                    "points": 10,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "Is a piece of the trident is no longer touching the shipwreck",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "Bonus: are both pieces are no longer touching the shipwreck",
+                    "points": 10,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "RESEARCH VESSEL",
+            "description": "Securely dock the ship that contains the samples and artifacts your team has collected.",
+            "image": "images/research.png",
+            "extra_info": "are any of the following are at least partly in the research vessel’s cargo area:",
+            "pointGivers": [
+                {
+                    "name": "Sample(s)",
+                    "points": 5,
+                    "type": "MANY",
+                    "singleObjectName": "sample",
+                    "multibleObjectNames": "samples",
+                    "numberOfObjects": 3
+                },
+                {
+                    "name": "Trident Part(s)",
+                    "points": 5,
+                    "type": "MANY",
+                    "singleObjectName": "trident part",
+                    "multibleObjectNames": "trident parts",
+                    "numberOfObjects": 2
+                },
+                {
+                    "name": "Treasure Chest",
+                    "points": 5,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "If the port’s latch is at least partly in the research vessel’s loop",
+                    "points": 20,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "PRECISION TOKENS",
+            "description": "You begin the match with six precision tokens worth 50 points. If you interrupt the robot outside of home, the referee will remove one token. You earn points for the number of tokens remaining at the end of the match.",
+            "image": "images/precision.png",
+            "pointGivers": [
+                {
+                    "name": "How many Precision Tokens do you have?",
+                    "points": {
+                        "6 tokens" : 50,
+                        "5 tokens" : 50,
+                        "4 tokens" : 35,
+                        "3 tokens" : 25,
+                        "2 tokens" : 15,
+                        "1 token" : 10
+                    },
+                    "type": "FORCED"
+                }
+            ]
+        }
+    ],
+    "hebrew": [
+        {
+            "yes": "כן",
+            "no": "לא",
+            "textDirection": "rtl",
+            "languge": "שפה",
+            "name": "עברית"
+        },
+        {
+            "name": "ביקורת ציוד",
+            "description": "לפני המקצה, תתבצע ביקורת ציוד. אם הרובוט וכל הציוד שלכם נכנסים לחלוטין לתוך אחד מאזורי השיגור והגובה שלהם הוא מתחת לדף A4",
+            "image": "images/inspection.png",
+            "pointGivers": [
+                {
+                    "name": "האם הרובוט וכל הציוד בתוך אזור שיגור אחד ומתחת לגובה של דף A4",
+                    "points": 20,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": " משתלת אלמוגים",
+            "description": "הציבו מבני אלמוגים חדשים שיגדלו במשתלה עד שיהיו חזקים מספיק להעברה לשונית.",
+            "image": "images/coral.png",
+            "pointGivers": [
+                {
+                    "name": "אם עץ האלמוגים תלוי על תומך עץ האלמוגים",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "בונוס: ותחתית עץ האלמוגים נמצאת בתוך התושבת",
+                    "points": 10,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "אם ניצני האלמוגים מופנים כלפי מעלה",
+                    "points": 20,   
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "כריש",
+            "description": "הכריש סומן זה עתה למטרות מחקר - שחררו אותו בחזרה לבית הגידול שלו.",
+            "image": "images/shark.png",
+            "pointGivers": [
+                {
+                    "name": "אם הכריש כבר לא נוגע במערה",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "אם הכריש נוגע בשטיח ונמצא לפחות חלקית בבית הגידול של הכריש",
+                    "points": 10,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "שונית אלמוגים",
+            "description": "הציבו בזהירות את מבנה האלמוגים החדש מבלי לפגוע בקטעי שונית סמוכים אחרים.",
+            "image": "images/reef.png",
+            "pointGivers": [
+                {
+                    "name": "אם שונית האלמוגים מופנית כלפי מעלה ואינה נוגעת בשטיח",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "אם קטע שונית עומד ופונה כלפי מעלה, במגע עם השטיח ומחוץ לבית",
+                    "points": 5,
+                    "type": "MANY",
+                    "singleObjectName": "קטע שונית",
+                    "multibleObjectNames": "קטעי שונית",
+                    "numberOfObjects": 3
+                }
+            ]
+        },
+        {
+            "name": "צוללן",
+            "description": "עזרו לצוללן להעביר אלמוג חדש ממשתלת האלמוגים לשונית האלמוגים.",
+            "image": "images/scuba.png",
+            "pointGivers": [
+                {
+                    "name": "אם הצוללן כבר לא נוגע במשתלת האלמוגים",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "אם הצוללן תלוי על תומך שונית האלמוגים",
+                    "points": 20,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "דג חכה",
+            "description": "הובילו את דג החכה חזרה לבית המפתיע שלו בתוך הספינה הטרופה.",
+            "image": "images/angler.png",
+            "pointGivers": [
+                {
+                    "name": "אם דג החכה לחלוטין בתוך הספינה הטרופה",
+                    "points": 30,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "הרימו תורן",
+            "description": "הרימו את התורן כדי לשקם את הספינה הטרופה שטבעה ולחקור את מה שנמצא בתוכה.",
+            "image": "images/raise.png",
+            "pointGivers": [
+                {
+                    "name": "אם התורן של הספינה הטרופה הורם לחלוטין",
+                    "points": 30,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "אוצרו של הקראקן",
+            "description": "חלצו את תיבת האוצר מתוך הספינה הטרופה כדי לחשוף את ההיסטוריה שלה ואת האוצר הטמון בתוכה.",
+            "image": "images/kraken.png",
+            "pointGivers": [
+                {
+                    "name": "אם תיבת האוצר נמצאת לחלוטין מחוץ לקן הקראקן",
+                    "points": 20,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "בית גידול מלאכותי",
+            "description": "סדרו מחדש את מקטעי בית הגידול המלאכותי כדי ליצור בתים בטוחים עבור הסרטנים ועבור יצורים ימיים אחרים החיים באזור.",
+            "image": "images/artificial.png",
+            "pointGivers": [
+                {
+                    "name": "אם מקטע בית גידול מלאכותי מקביל לחלוטין לשטיח ומופנה כלפי מעלה",
+                    "points": 10,
+                    "type": "MANY",
+                    "objectNames": "segment",
+                    "numberOfObjects": 4
+                }
+            ]
+        },
+        {
+            "name": "מפגש בלתי צפוי",
+            "description": "יצור בלתי מזוהה נצמד לרכב האוטונומי התת־ימי! שחררו אותו בזהירות והביאו אותו לנביעת המעמקים.",
+            "image": "images/unexpected.png",
+            "pointGivers": [
+                {
+                    "name": "אם היצור הבלתי מזוהה משוחרר",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "אם היצור הבלתי מזוהה נמצא לפחות חלקית בנביעת המעמקים",
+                    "points": 10,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "העבירו את הצוללת",
+            "description": "יש אזורים מסוימים בים שקשה להגיע אליהם עם ספינות גדולות. שלחו את הצוללת לחקור את הים של הזירה השנייה.",
+            "image": "images/send.png",
+            "pointGivers": [
+                {
+                    "name": "אם הדגל הצהוב של הקבוצה שלכם מופנה כלפי מטה",
+                    "points": 30,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "אם הצוללת בבירור קרובה יותר לזירה השניה",
+                    "points": 10,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "תגלית סונאר",
+            "description": "השתמשו בטכנולוגיית הסונאר של הספינה כדי לסרוק את הסביבה ולאתר עצמים או בעלי חיים סמוכים.",
+            "image": "images/sonar.png",
+            "pointGivers": [
+                {
+                    "name": "אם לוויתן אחד נחשף",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "בונוס: אם שני הלוויתנים נחשפו",
+                    "points": 10,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "האכילו את הלוויתן",
+            "description": "חסילוני קריל הם המאכל האהוב על הלוויתן! אספו את חסילוני הקריל והאכילו בהם את הלוויתן הרעב.",
+            "image": "images/feed.png",
+            "pointGivers": [
+                {
+                    "name": "כמה חיסלוני קריל נמצאים לפחות חלקית בתוך פיו של הלוויתן",
+                    "points": 10,
+                    "type": "MANY",
+                    "singleObjectName": "חיסלון קריל",
+                    "multibleObjectNames": "חיסלוני קריל",
+                    "numberOfObjects": 5
+                }
+            ]
+        },
+        {
+            "name": "החליפו את נתיבי השיט",
+            "description": "התאימו את מסלול ספינת המשא כדי להתרחק ממסלולי נדידת הלוויתנים על ידי מעבר לנתיב שיט אחר.",
+            "image": "images/change.png",
+            "pointGivers": [
+                {
+                    "name": "אם הספינה נמצאת בנתיב השיט החדש ונוגעת בשטיח",
+                    "points": 20,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "איסוף דגימות",
+            "description": "אספו דגימות וחפצים מרחבי שטיח המשחק על מנת שמדענים יוכלו לנתח אותם במעבדה.",
+            "image": "images/sample.png",
+            "pointGivers": [
+                {
+                    "name": "אם דגימת המים נמצאת לחלוטין מחוץ לאזור דגימת המים",
+                    "points": 5,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "אם דגימת קרקעית הים לא נוגעת בקרקעית הים",
+                    "points": 10,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "אם דגימת הפלנקטון לא נוגעת ביער האצות",
+                    "points": 10,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "אם אחד מחלקי הקלשון כבר לא נוגע בספינה הטרופה",
+                    "points": 20,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "בונוס: אם שני חלקי הקלשון כבר לא נוגעים בספינה הטרופה",
+                    "points": 10,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "ספינת מחקר",
+            "description": "עגנו לנמל, באופן מאובטח, את הספינה המכילה את הדגימות והחפצים שקבוצתכם אספה.",
+            "image": "images/research.png",
+            "extra_info": "אם הדגמים הבאים נמצאים לפחות חלקית בתוך אזור המשא של ספינת המחקר:",
+            "pointGivers": [
+                {
+                    "name": "דגימה/ות",
+                    "points": 5,
+                    "type": "MANY",
+                    "singleObjectName": "דגימה",
+                    "multibleObjectNames": "דגימות",
+                    "numberOfObjects": 3
+                },
+                {
+                    "name": "חלק/י קלשון",
+                    "points": 5,
+                    "type": "MANY",
+                    "singleObjectName": "חלק קלשון",
+                    "multibleObjectNames": "חלקי קלשון",
+                    "numberOfObjects": 2
+                },
+                {
+                    "name": "תיבת אוצר",
+                    "points": 5,
+                    "type": "YESNO"
+                },
+                {
+                    "name": "אם תפס הנמל נמצא לפחות חלקית בתוך הלולאה של ספינת המחקר",
+                    "points": 20,
+                    "type": "YESNO"
+                }
+            ]
+        },
+        {
+            "name": "אסימוני דיוק",
+            "description": "אתם מתחילים את המשחק עם שישה אסימוני דיוק השווים 50 נקודות. אם אתם מפריעים לרובוט מחוץ לבית, שופט/ת הזירה מסיר/ה את אחד האסימונים. אתם זוכים בנקודות עבור מספר האסימונים הנותרים בסוף המקצה.",
+            "image": "images/precision.png",
+            "pointGivers": [
+                {
+                    "name": "כמה אסימוני דיוק יש לכם?",
+                    "points": {
+                        "6 אסימוני דיוק" : 50,
+                        "5 אסימוני דיוק" : 50,
+                        "4 אסימוני דיוק" : 35,
+                        "3 אסימוני דיוק" : 25,
+                        "2 אסימוני דיוק" : 15,
+                        "1 אסימוני דיוק" : 10
+                    },
+                    "type": "FORCED"
+                }
+            ]
+        }
+    ]
+}

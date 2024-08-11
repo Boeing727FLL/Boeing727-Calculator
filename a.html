@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <label>MISSON NAME</label><input type="text" id="MN">
+        <h1></h1>
+        <label>MISSON DISC</label><input type="text" id="MD">
+        <h1></h1>
+        <label>MISSON IMAGE</label><input type="text" id="MI">
+        <h4 id="output"></h4>
+        <button onclick="dodo()">a</button>
+        <script>
+            function dodo(){
+                let nameText = document.getElementById('MN').value
+                let discText = document.getElementById('MD').value
+                let imagePath = document.getElementById('MI').value
+                document.getElementById('output').textContent = `
+                {
+                    "name": "${nameText}",
+                    "description": "${discText}",
+                    "image": "${imagePath}",
+                    "pointGivers": [
+                    {
+                        "name": "name",
+                        "point": 20,
+                        "type": "YESNO"
+                    }
+                    ]
+                }
+                `
+            }
+        </script>
+    </body>
+</html>
