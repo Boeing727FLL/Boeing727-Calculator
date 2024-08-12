@@ -451,7 +451,8 @@
                     "name": "אם מקטע בית גידול מלאכותי מקביל לחלוטין לשטיח ומופנה כלפי מעלה",
                     "points": 10,
                     "type": "MANY",
-                    "objectNames": "segment",
+                    "singleObjectName": "מקטע גידול מלאכותי",
+                    "multibleObjectNames": "מקטעי גידול מלאכותי",
                     "numberOfObjects": 4
                 }
             ]
