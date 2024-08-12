@@ -58,6 +58,7 @@ function translate(languge) {
         mission.pointGivers.forEach(pointGiver => {
             pointGiversContainer.appendChild(createText('label', pointGiver.name + " "))
             let select = document.createElement('select')
+            select.onchange = calculate
             select.className = "mission-select"
             pointGiversContainer.appendChild(select)
             if (pointGiver.type == "YESNO") {

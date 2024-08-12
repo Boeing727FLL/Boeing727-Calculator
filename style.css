@@ -30,7 +30,9 @@ article {
     article {
         grid-template-columns: repeat(1, 1fr);
     }
-    
+    .icon {
+        margin-top: 100px;
+    }
 }
 
 .math-button {
@@ -40,6 +42,7 @@ article {
     font-size: 5vmin;
     border-radius: 10px;
     width: 15vmax;
+    margin-top: 100px;
 }
 
 #score-display {
